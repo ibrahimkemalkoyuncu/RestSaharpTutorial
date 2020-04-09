@@ -13,7 +13,6 @@ namespace RestSharp01
         public long Total { get; set; }
         public long TotalPages { get; set; }
         public List<Data> Data { get; set; }
-        public Ad Ad { get; set; }
     }
 
     public partial class Temperatures
