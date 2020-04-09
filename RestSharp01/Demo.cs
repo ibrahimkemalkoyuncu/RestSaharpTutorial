@@ -8,7 +8,7 @@ using Newtonsoft.Json;
 
 namespace RestSharp01
 {
-    public class Demao
+    public class Demo
     {
         public ListOfUsersDTO GetUsers()
         {
@@ -30,5 +30,10 @@ namespace RestSharp01
 
             return users;
         }
+
+
+        //public CreateUserDto CreateUser()
+        //{
+        //}
     }
 }
